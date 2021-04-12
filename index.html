@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="new2.css">
     <script src="responsive.js"></script>
-    <title>Practical Exam</title>
+    <title>Document</title>
 </head>
-<body class="main">
-    <header class="test1">
-        <h1>Web Design is Awesome!!!</h1> 
-            <a class="link1" href="https://www.youtube.com/">FPT University Program</a>
-            <a class="link2" href="https://www.youtube.com/">Start learn on Coursera!</a>     
-    </header>
 
-    <section class="test2"> 
-        <article class="sub">
+<body class="main">
+    <div class="head">
+        <h1>Web Design is Awesome!!!</h1> 
+        <nav class="link">
+            <a class="link1" href="https://www.youtube.com/">FPT University Program</a>
+            <a class="link2" href="https://www.youtube.com/">Start learn on Coursera!</a> 
+        </nav>
+    </div>
+
+    <div class="submain">
+        <span class="para1">
             <h3>About this Specialization</h3>
             <p>This Specialization covers how to write jjjjj, This Specialization covers how 
                 to write jjjjj,This Specialization covers how to write jjjjj,This 
@@ -30,9 +33,9 @@
                 This Specialization covers how to write jjjjj,This Specialization covers how to write jjjjj.
             </p>
             <p id="para2" onclick="hide()">SHOW MORE</p>
-        </article>
-       
-        <section class="form">
+        </span>
+
+        <div class="form">
             <h3>Your information to enroll for free</h3>
             <form action="" name="register" onsubmit="return enroll()" required>
                 <label for="full_name">Full Name</label>
@@ -47,9 +50,8 @@
                 <label for="repassword">Repassword</label>
                 <input class="input4" type="password" id="repassword" name="repassword">
                 <br><br>
-                <input type="submit">
+                <button>Enroll</button>
             </form>
-            <br>
             <p> Options:</p>
             <p class="radio">
                 <input type="checkbox" id="Option_1" name="options" value="Option_1">
@@ -59,11 +61,11 @@
                 <input type="checkbox" id="Option_3" name="options" value="Option_3">
                 <label for="Option_3">Option 3</label>
             </p>
-        </section>
-    </section>
-       
-        <footer class="last">
-            <p id="footer">SPONSORED BY FPT UNIVERSITY</p> 
-         </footer>
-         
+        </div>
+    </div>
+    <footer class="last">
+        SPONSORED BY FPT UNIVERSITY
+       </footer>
+
+</body>
 </html>
