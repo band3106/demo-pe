@@ -74,28 +74,28 @@
     margin-left: 10px;    
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
     .input1{
         border-radius: 5px;
         margin-left: 1.45rem;  
-        width: 45%;  
+        width: 36%;  
     }
     
     .input2{
         border-radius: 5px;
         margin-left: 3.5rem;   
-        width: 45%; 
+        width: 36%; 
     }
     
     .input3{
         border-radius: 5px;
         margin-left: 1.7rem;  
-        width: 45%;  
+        width: 36%;  
     }
     
     .input4{
         border-radius: 5px;
         margin-left: 10px;    
-        width: 45%;
+        width: 36%;
     }
 }
